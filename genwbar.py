@@ -41,9 +41,6 @@ for i in tqdm (range(amount), desc="Making codes..."):
         f = open("codes.txt", "a+")
         f.write(f"{code}\n")
         f.close()
-
-        # Add to value so we don't waste time
-        value += 1
     except Exception as e:
         print(f"{Fore.RED}GEN [-] ERROR:\n>{Fore.WHITE}{e}")
 

@@ -29,7 +29,6 @@ print(
 )
 # User options
 amount = int(input("How many codes do you want to generate?\n> "))
-value = 1
 
 for i in tqdm (range(amount), desc="Making codes..."):
     try:
